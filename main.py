@@ -34,7 +34,7 @@ screen.onkey(b_paddle.down, "s")
 scoreboard = ScoreBoard()
 
 while True:
-    time.sleep(0.02)
+    time.sleep(0.03)
 
     scoreboard.UpdateScoreBoard()
     screen.update()
